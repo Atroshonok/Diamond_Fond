@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="DiamondFondStylesheet.xsl"?>
+<pavilion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:noNamespaceSchemaLocation="DiamondFondXMLSchema.xsd">
+
+	<gem id="ID1">
+		<name>Garnet</name>
+		<preciousness>SEMIPRECIOUS</preciousness>
+		<origin>Karelia</origin>
+		<value>10.62</value>
+		<visual-parameters-list>
+			<color>Red</color>
+			<transparency>50</transparency>
+			<facescount>10</facescount>
+		</visual-parameters-list>
+	</gem>
+	<gem id="ID2">
+		<name>Diamond</name>
+		<preciousness>PRECIOUS</preciousness>
+		<origin>Brazil</origin>
+		<value>83.37</value>
+		<visual-parameters-list>
+			<color>White</color>
+			<transparency>90</transparency>
+			<facescount>15</facescount>
+		</visual-parameters-list>
+	</gem>
+	<gem id="ID3">
+		<name>Emerald</name>
+		<preciousness>PRECIOUS</preciousness>
+		<origin>Colombia</origin>
+		<value>0.61</value>
+		<visual-parameters-list>
+			<color>Green</color>
+			<transparency>50</transparency>
+			<facescount>10</facescount>
+		</visual-parameters-list>
+	</gem>
+	<gem id="ID4">
+		<name>Amethyst</name>
+		<preciousness>PRECIOUS</preciousness>
+		<origin>Bolivia</origin>
+		<value>24.95</value>
+		<visual-parameters-list>
+			<color>Purple</color>
+			<transparency>80</transparency>
+			<facescount>15</facescount>
+		</visual-parameters-list>
+	</gem>
+	<gem id="ID5">
+		<name>Jasper</name>
+		<preciousness>SEMIPRECIOUS</preciousness>
+		<origin>Brazil</origin>
+		<value>38.76</value>
+		<visual-parameters-list>
+			<color>Varicolored</color>
+			<transparency>0</transparency>
+			<facescount>6</facescount>
+		</visual-parameters-list>
+	</gem>
+	<gem id="ID6">
+		<name>Topaz</name>
+		<preciousness>PRECIOUS</preciousness>
+		<origin>Brazil</origin>
+		<value>15.96</value>
+		<visual-parameters-list>
+			<color>Braun</color>
+			<transparency>95</transparency>
+			<facescount>13</facescount>
+		</visual-parameters-list>
+	</gem>
+	<gem id="ID7">
+		<name>Sapphire</name>
+		<preciousness>PRECIOUS</preciousness>
+		<origin>Africa</origin>
+		<value>2.85</value>
+		<visual-parameters-list>
+			<color>Orange</color>
+			<transparency>98</transparency>
+			<facescount>15</facescount>
+		</visual-parameters-list>
+	</gem>
+	<gem id="ID8">
+		<name>Turquoise</name>
+		<preciousness>SEMIPRECIOUS</preciousness>
+		<origin>Arizona</origin>
+		<value>21.2</value>
+		<visual-parameters-list>
+			<color>Blue</color>
+			<transparency>0</transparency>
+			<facescount>7</facescount>
+		</visual-parameters-list>
+	</gem>
+</pavilion>

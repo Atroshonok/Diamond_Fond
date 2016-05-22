@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+
+	<element name="pavilion">
+		<complexType>
+			<sequence>
+				<element name="gem" maxOccurs="unbounded">
+					<complexType>
+						<sequence>
+
+							<element name="name" type="string" maxOccurs="1" />
+
+							<element name="preciousness" maxOccurs="1">
+								<simpleType>
+									<restriction base="string">
+										<enumeration value="SEMIPRECIOUS" />
+										<enumeration value="PRECIOUS" />
+									</restriction>
+								</simpleType>
+							</element>
+
+							<element name="origin" type="token" maxOccurs="1" />
+
+							<element name="value">
+								<simpleType>
+									<restriction base="string">
+										<pattern value="([0-9]+)\.?([0-9]{0,2})" />
+									</restriction>
+								</simpleType>
+							</element>
+
+							<element name="visual-parameters-list" maxOccurs="1">
+								<complexType>
+									<sequence>
+										<element name="color" maxOccurs="1">
+											<simpleType>
+												<restriction base="string">
+													<enumeration value="Red" />
+													<enumeration value="Orange" />
+													<enumeration value="Yellow" />
+													<enumeration value="Green" />
+													<enumeration value="Blue" />
+													<enumeration value="Purple" />
+													<enumeration value="Braun" />
+													<enumeration value="White" />
+													<enumeration value="Varicolored" />
+												</restriction>
+											</simpleType>
+										</element>
+
+										<element name="transparency" maxOccurs="1">
+											<simpleType>
+												<restriction base="int">
+													<minInclusive value="0" />
+													<maxInclusive value="100" />
+												</restriction>
+											</simpleType>
+										</element>
+
+										<element name="facescount" maxOccurs="1">
+											<simpleType>
+												<restriction base="int">
+													<minInclusive value="4" />
+													<maxInclusive value="15" />
+												</restriction>
+											</simpleType>
+										</element>
+
+									</sequence>
+								</complexType>
+							</element>
+
+						</sequence>
+						<attribute name="id" use="required">
+							<simpleType>
+								<restriction base="ID">
+									<pattern value="ID[0-9]+"/>
+								</restriction>
+							</simpleType>
+						</attribute>
+						
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>
